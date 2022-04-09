@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
+        if (PlayerPrefs.GetInt("COUNT_UNLOCKED_LEVELS") == 0) PlayerPrefs.SetInt("COUNT_UNLOCKED_LEVELS", 1);
         countUnlockedlevel = PlayerPrefs.GetInt("COUNT_UNLOCKED_LEVELS");
         for (int i = 0; i < transform.childCount; i++)
         {
