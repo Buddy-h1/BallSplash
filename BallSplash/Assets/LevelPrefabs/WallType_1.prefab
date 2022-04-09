@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2278612695665144811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996393464465377619}
+  - component: {fileID: 3762035619059768752}
+  - component: {fileID: 2129483679410304172}
+  - component: {fileID: 2697570700019382850}
+  m_Layer: 0
+  m_Name: WallType_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996393464465377619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278612695665144811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3762035619059768752
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278612695665144811}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -2808402610397915282, guid: 28a1f117a16ff814bba58cb5fe90195b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.6, y: 10.26}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!68 &2129483679410304172
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278612695665144811}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.10479069, y: -5.1295824}
+  - {x: -1.3007603, y: -5.1306295}
+  - {x: -1.299407, y: -4.068697}
+  - {x: -1.1823487, y: -4.069271}
+  - {x: -1.1821055, y: -3.2921429}
+  - {x: -1.2997103, y: -3.291903}
+  - {x: -1.2990143, y: -2.226884}
+  - {x: -1.182327, y: -2.2282438}
+  - {x: -1.1826985, y: -1.4516559}
+  - {x: -1.2984838, y: -1.4516559}
+  - {x: -1.2998247, y: -1.4505849}
+  - {x: -1.2994406, y: -0.38722563}
+  - {x: -1.1833067, y: -0.38742208}
+  - {x: -1.1830513, y: 0.38702416}
+  - {x: -1.2453656, y: 0.38752103}
+  - {x: -1.2985585, y: 0.38766766}
+  - {x: -1.2990572, y: 1.3336179}
+  - {x: -1.2990038, y: 1.4536312}
+  - {x: -1.1831532, y: 1.4525957}
+  - {x: -1.1806283, y: 2.226782}
+  - {x: -1.2984834, y: 2.227199}
+  - {x: -1.2984834, y: 3.2920127}
+  - {x: -1.1823962, y: 3.2910633}
+  - {x: -1.1815264, y: 4.0678134}
+  - {x: -1.2992494, y: 4.0675936}
+  - {x: -1.2983873, y: 5.128428}
+  - {x: 1.3007741, y: 5.1294866}
+  - {x: 1.2998638, y: 4.067867}
+  - {x: 1.1826162, y: 4.0673637}
+  - {x: 1.1816597, y: 3.2925143}
+  - {x: 1.2998819, y: 3.2915266}
+  - {x: 1.3000088, y: 2.228083}
+  - {x: 1.2436419, y: 2.2280831}
+  - {x: 1.1815748, y: 2.2279654}
+  - {x: 1.1816607, y: 1.4522591}
+  - {x: 1.2995582, y: 1.4524119}
+  - {x: 1.3002758, y: 0.38835597}
+  - {x: 1.1818881, y: 0.38786888}
+  - {x: 1.1817508, y: -0.3878622}
+  - {x: 1.2986794, y: -0.38778353}
+  - {x: 1.2998223, y: -1.4526372}
+  - {x: 1.1817646, y: -1.4526954}
+  - {x: 1.1813383, y: -2.2270179}
+  - {x: 1.2996893, y: -2.2270536}
+  - {x: 1.2998338, y: -3.2925396}
+  - {x: 1.1825318, y: -3.292313}
+  - {x: 1.1806521, y: -4.067313}
+  - {x: 1.2990546, y: -4.0679455}
+  - {x: 1.2993217, y: -5.1301994}
+  - {x: -0.09325266, y: -5.1301985}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!331 &2697570700019382850
+SpriteMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278612695665144811}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10758, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -2808402610397915282, guid: 28a1f117a16ff814bba58cb5fe90195b, type: 3}
+  m_MaskAlphaCutoff: 0.2
+  m_FrontSortingLayerID: 0
+  m_BackSortingLayerID: 0
+  m_FrontSortingLayer: 0
+  m_BackSortingLayer: 0
+  m_FrontSortingOrder: 0
+  m_BackSortingOrder: 0
+  m_IsCustomRangeActive: 0
+  m_SpriteSortPoint: 0
