@@ -21,7 +21,6 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        //if (Input.GetMouseButtonDown(0) && BallCollision.countSplash != -1 && levelComplete == false)
         if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)) && BallCollision.countSplashNull != true && levelComplete == false && pause == false)
         {
             morality.SetActive(false);

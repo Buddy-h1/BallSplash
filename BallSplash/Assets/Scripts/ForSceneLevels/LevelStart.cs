@@ -7,8 +7,9 @@ public class LevelStart : MonoBehaviour
 
 
     public void BeginLevel()
-    {        
-        SceneManager.LoadScene(numLevel);
+    {
         Time.timeScale = 1;
+        BallCollision.countSplashNull = false;
+        SceneManager.LoadScene(numLevel);
     }
 }
